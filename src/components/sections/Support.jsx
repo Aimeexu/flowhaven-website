@@ -11,46 +11,46 @@ import { Button } from "@/components/ui/button";
 const Support = () => {
   const faqs = [
     {
-      category: "Product Usage",
+      category: "产品使用",
       questions: [
         {
-          q: "Which platforms does TomatoTime support?",
-          a: "Currently only supports iOS platform, available on US App Store.",
+          q: "萌友专注支持哪些平台？",
+          a: "目前仅支持iOS平台，可在美国App Store下载。",
         },
         {
-          q: "How do I get new animal companions?",
-          a: "Animals are randomly obtained when completing focus tasks, with different animal types favored at different times.",
+          q: "如何获得新的动物伙伴？",
+          a: "完成专注任务时随机获得动物，不同时间段会有不同动物类型偏好。",
         },
         {
-          q: "How do I unlock posters?",
-          a: "Collect the specified number of same-themed animals to redeem corresponding themed posters.",
+          q: "如何解锁海报？",
+          a: "收集指定数量的同主题动物即可兑换相应主题海报。",
         },
         {
-          q: "Does it support data synchronization?",
-          a: "Supports automatic iCloud sync, worry-free data when switching devices.",
+          q: "是否支持数据同步？",
+          a: "支持iCloud自动同步，换设备也无需担心数据丢失。",
         },
       ],
     },
     {
-      category: "Technical Support",
+      category: "技术支持",
       questions: [
         {
-          q: "How do I report technical issues?",
-          a: "Please contact us via email or customer service channels, our tech team will respond within 24 hours.",
+          q: "如何反馈技术问题？",
+          a: "请通过邮箱或客服渠道联系我们，技术团队将在24小时内响应。",
         },
         {
-          q: "How do I resolve app crashes?",
-          a: "We recommend restarting the app or updating to the latest version. If the problem persists, please contact technical support.",
+          q: "应用崩溃如何解决？",
+          a: "建议重启应用或更新到最新版本。如问题持续，请联系技术支持。",
         },
       ],
     },
   ];
 
   const cooperationTypes = [
-    "App distribution channel partnerships",
-    "Brand collaboration & content partnerships",
-    "Technical services & outsourcing business",
-    "Investment & strategic partnerships",
+    "应用分发渠道合作",
+    "品牌合作与内容合作",
+    "技术服务与外包业务",
+    "投资与战略合作",
   ];
 
   return (
@@ -62,10 +62,10 @@ const Support = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Support Center
+            支持中心
           </h2>
           <p className="text-xl text-slate-600 mb-2">
-            User Help & Service Support
+            用户帮助与服务支持
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto"></div>
         </div>
@@ -73,7 +73,7 @@ const Support = () => {
         {/* FAQ Section */}
         <div className="mb-20">
           <h3 className="text-3xl font-bold text-slate-900 text-center mb-12">
-            Frequently Asked Questions
+            常见问题
           </h3>
           <div className="grid lg:grid-cols-2 gap-8">
             {faqs.map((category, categoryIndex) => (
@@ -111,20 +111,19 @@ const Support = () => {
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-100">
             <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center">
               <Phone className="mr-3 text-purple-600" size={24} />
-              Contact Us
+              联系我们
             </h3>
             <div className="space-y-6">
               <div className="flex items-start space-x-3">
                 <MapPin className="text-purple-600 mt-1" size={20} />
                 <div>
                   <h4 className="font-semibold text-slate-900">
-                    Company Address
+                    公司地址
                   </h4>
                   <p className="text-slate-600 text-sm">
-                    Room 506, Unit 2, Building 1, No. 10 Jianshe Road, Chenghua
-                    District, Chengdu, Sichuan Province, China
+                    中国四川省成都市成华区建设路10号1栋2单元506室
                   </p>
-                  <p className="text-slate-600 text-sm">Postal Code: 610051</p>
+                  <p className="text-slate-600 text-sm">邮编：610051</p>
                 </div>
               </div>
 
@@ -132,7 +131,7 @@ const Support = () => {
                 <Mail className="text-purple-600 mt-1" size={20} />
                 <div>
                   <h4 className="font-semibold text-slate-900">
-                    Contact Email
+                    联系邮箱
                   </h4>
                   <p className="text-slate-600 text-sm">
                     missheiya0807@gmail.com
@@ -144,11 +143,11 @@ const Support = () => {
                 <Phone className="text-purple-600 mt-1" size={20} />
                 <div>
                   <h4 className="font-semibold text-slate-900">
-                    Contact Phone
+                    联系电话
                   </h4>
                   <p className="text-slate-600 text-sm">+86 18108224365</p>
                   <p className="text-slate-600 text-sm">
-                    Contact Person: Ms. Lin (General Manager)
+                    联系人：林女士（总经理）
                   </p>
                 </div>
               </div>
@@ -157,13 +156,13 @@ const Support = () => {
                 <Clock className="text-purple-600 mt-1" size={20} />
                 <div>
                   <h4 className="font-semibold text-slate-900">
-                    Service Hours
+                    服务时间
                   </h4>
                   <p className="text-slate-600 text-sm">
-                    Weekdays 9:00-18:00 (GMT+8)
+                    工作日 9:00-18:00（GMT+8）
                   </p>
                   <p className="text-slate-600 text-sm">
-                    Technical Support: 7x24 email support
+                    技术支持：7x24邮箱支持
                   </p>
                 </div>
               </div>
@@ -174,10 +173,10 @@ const Support = () => {
           <div className="bg-gradient-to-br from-purple-600 to-blue-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-6 flex items-center">
               <Handshake className="mr-3" size={24} />
-              Business Cooperation
+              商务合作
             </h3>
             <p className="text-purple-100 mb-6">
-              We welcome the following cooperation opportunities:
+              我们欢迎以下合作机会：
             </p>
             <div className="space-y-3 mb-8">
               {cooperationTypes.map((type, index) => (
@@ -192,7 +191,7 @@ const Support = () => {
               size="lg"
             >
               <Mail className="mr-2" size={20} />
-              Contact Business Cooperation
+              联系商务合作
             </Button>
           </div>
         </div>
@@ -200,30 +199,29 @@ const Support = () => {
         {/* Legal Information */}
         <div className="bg-slate-100 rounded-2xl p-8">
           <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">
-            Legal Information
+            法律信息
           </h3>
           <div className="grid md:grid-cols-2 gap-6 text-center">
             <div>
               <h4 className="font-semibold text-slate-900 mb-2">
-                Full Company Name
+                公司全称
               </h4>
               <p className="text-slate-600 text-sm">
-                FlowHaven Technology Co., Ltd.
+                四川小宇灵境科技有限公司
               </p>
             </div>
             <div>
               <h4 className="font-semibold text-slate-900 mb-2">
-                Business Scope
+                业务范围
               </h4>
               <p className="text-slate-600 text-sm">
-                Software development, AI applications, information system
-                integration, digital content creation
+                软件开发、AI应用、信息系统集成、数字内容创作
               </p>
             </div>
           </div>
           <div className="text-center mt-8 pt-6 border-t border-slate-300">
             <p className="text-slate-600 text-sm">
-              Copyright © 2025 FlowHaven Technology Co., Ltd.
+              版权所有 © 2025 四川小宇灵境科技有限公司
             </p>
           </div>
         </div>

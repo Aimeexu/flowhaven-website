@@ -15,50 +15,50 @@ const Features = () => {
   const features = [
     {
       icon: Clock,
-      title: "Smart Focus Timer",
+      title: "智能专注计时器",
       description:
-        "25-minute focus cycles based on the Pomodoro Technique with customizable durations to suit your personal rhythm",
+        "基于番茄工作法的25分钟专注周期，可自定义时长以适应您的个人节奏",
       details: [
-        "25-minute focus cycles based on Pomodoro Technique",
-        "Customizable focus duration to match personal rhythm",
-        "Immersive background sounds and white noise options",
-        "Anti-distraction mechanism to maintain focus",
+        "基于番茄工作法的25分钟专注周期",
+        "可自定义专注时长，匹配个人节奏",
+        "沉浸式背景音和白噪音选项",
+        "防干扰机制，保持专注状态",
       ],
     },
     {
       icon: Heart,
-      title: "Animal Companion Growth",
+      title: "动物伙伴成长系统",
       description:
-        "Randomly obtain cute animal companions, complete focus tasks, and watch animals grow alongside you",
+        "随机获得可爱的动物伙伴，完成专注任务，看着动物与您一起成长",
       details: [
-        "Randomly obtain cute animal companions",
-        "Complete focus tasks and watch animals grow alongside you",
-        "Multiple themed scenes including Breezy Plains, Snowy Warmth, and Giant Leaf Jungle",
-        "Time-based personalized drop mechanism",
+        "随机获得可爱的动物伙伴",
+        "完成专注任务，看着动物与您一起成长",
+        "多种主题场景，包括微风草原、雪域暖意、巨型叶林等",
+        "基于时间的个性化掉落机制",
       ],
     },
     {
       icon: Trophy,
-      title: "Poster Collection System",
+      title: "海报收藏系统",
       description:
-        "Unlock beautiful themed posters through animal combinations, achievement showcase and collection gallery",
+        "通过动物组合解锁精美主题海报，成就展示与收藏画廊",
       details: [
-        "Unlock beautiful themed posters through animal combinations",
-        "Achievement showcase and collection gallery",
-        "Social sharing features to showcase focus achievements",
-        "Continuously updated content ecosystem",
+        "通过动物组合解锁精美主题海报",
+        "成就展示与收藏画廊",
+        "社交分享功能，展示专注成就",
+        "持续更新的内容生态",
       ],
     },
     {
       icon: BarChart3,
-      title: "Data Statistics & Analysis",
+      title: "数据统计分析",
       description:
-        "Visualize focus duration and frequency, track personal growth journey",
+        "可视化专注时长与频率，追踪个人成长旅程",
       details: [
-        "Visualize focus duration and frequency",
-        "Track personal growth journey",
-        "Efficiency improvement data insights",
-        "Habit formation progress tracking",
+        "可视化专注时长与频率",
+        "追踪个人成长旅程",
+        "效率提升数据洞察",
+        "习惯养成进度追踪",
       ],
     },
   ];
@@ -72,10 +72,10 @@ const Features = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Product Features
+            产品功能
           </h2>
           <p className="text-xl text-slate-600 mb-2">
-            Redefining the Focus Experience
+            重新定义专注体验
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto"></div>
         </div>
@@ -121,39 +121,38 @@ const Features = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-3xl font-bold mb-4">
-                TomatoTime – Focus & Relax Timer
+                萌友专注 – 专注与放松计时器
               </h3>
               <p className="text-lg text-purple-100 mb-6">
-                The first healing-style Pomodoro app, now live on the US App
-                Store
+                首款治愈系番茄钟应用，现已上线美国App Store
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                   <Palette className="text-yellow-300 mb-2" size={24} />
-                  <h4 className="font-semibold mb-1">Healing Design</h4>
+                  <h4 className="font-semibold mb-1">治愈设计</h4>
                   <p className="text-sm text-purple-100">
-                    Warm visual experience
+                    温暖的视觉体验
                   </p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                   <Shield className="text-green-300 mb-2" size={24} />
-                  <h4 className="font-semibold mb-1">Focus Protection</h4>
+                  <h4 className="font-semibold mb-1">专注守护</h4>
                   <p className="text-sm text-purple-100">
-                    Anti-distraction mechanism
+                    防干扰机制
                   </p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                   <Zap className="text-orange-300 mb-2" size={24} />
-                  <h4 className="font-semibold mb-1">Efficient Management</h4>
+                  <h4 className="font-semibold mb-1">高效管理</h4>
                   <p className="text-sm text-purple-100">
-                    Scientific time allocation
+                    科学时间分配
                   </p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                   <Users className="text-blue-300 mb-2" size={24} />
-                  <h4 className="font-semibold mb-1">Social Sharing</h4>
+                  <h4 className="font-semibold mb-1">社交分享</h4>
                   <p className="text-sm text-purple-100">
-                    Achievement showcase
+                    成就展示
                   </p>
                 </div>
               </div>
@@ -162,7 +161,7 @@ const Features = () => {
               <div className="relative z-10">
                 <img
                   src={image1}
-                  alt="Cute animal illustrations"
+                  alt="可爱的动物插画"
                   className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
                 />
               </div>

@@ -22,18 +22,16 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Making Focus Feel
+                让专注更有
                 <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-                  Warmer
+                  温度
                 </span>
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed">
-                Innovative Leader in Companion Productivity Tools
+                陪伴式生产力工具的创新引领者
               </p>
               <p className="text-lg text-gray-400 leading-relaxed">
-                FlowHaven Tech specializes in developing healing productivity
-                apps with emotional interactive design, making every moment of
-                focus warm and fulfilling
+                四川小宇灵境科技有限公司专注于开发治愈系生产力应用，以情感化交互设计为核心，让每一个专注时刻都温暖而充实
               </p>
             </div>
 
@@ -43,10 +41,10 @@ const Hero = () => {
                 <Heart className="text-pink-400" size={24} />
                 <div>
                   <h3 className="text-white font-semibold">
-                    Emotional Companion
+                    情感陪伴
                   </h3>
                   <p className="text-gray-400 text-sm">
-                    Cute animal companions
+                    可爱的动物伙伴
                   </p>
                 </div>
               </div>
@@ -54,10 +52,10 @@ const Hero = () => {
                 <Star className="text-yellow-400" size={24} />
                 <div>
                   <h3 className="text-white font-semibold">
-                    Scientific Efficiency
+                    科学高效
                   </h3>
                   <p className="text-gray-400 text-sm">
-                    Pomodoro time management
+                    番茄时间管理
                   </p>
                 </div>
               </div>
@@ -65,19 +63,19 @@ const Hero = () => {
                 <Users className="text-blue-400" size={24} />
                 <div>
                   <h3 className="text-white font-semibold">
-                    Growth Motivation
+                    成长激励
                   </h3>
-                  <p className="text-gray-400 text-sm">Animal growth system</p>
+                  <p className="text-gray-400 text-sm">动物成长系统</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3 p-4 bg-white/10 backdrop-blur-sm rounded-lg">
                 <Heart className="text-green-400" size={24} />
                 <div>
                   <h3 className="text-white font-semibold">
-                    Healing Experience
+                    治愈体验
                   </h3>
                   <p className="text-gray-400 text-sm">
-                    Relieve stress and boost happiness
+                    缓解压力，提升幸福感
                   </p>
                 </div>
               </div>
@@ -90,7 +88,7 @@ const Hero = () => {
                 size="lg"
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-3"
               >
-                Coming Soon
+                即将上线
               </Button>
               <Button
                 onClick={() => scrollToSection("features")}
@@ -98,7 +96,7 @@ const Hero = () => {
                 size="lg"
                 className="border-white/20 text-white hover:bg-white/10 px-8 py-3"
               >
-                Learn More
+                了解更多
               </Button>
             </div>
 
@@ -110,8 +108,8 @@ const Hero = () => {
                 <div className="w-8 h-8 bg-gradient-to-br from-green-400 to-emerald-400 rounded-full border-2 border-white"></div>
               </div>
               <p className="text-gray-400">
-                Trusted by <span className="text-white font-semibold">1M+</span>{" "}
-                users
+                已获 <span className="text-white font-semibold">100万+</span>{" "}
+                用户信赖
               </p>
             </div>
           </div>
@@ -121,34 +119,34 @@ const Hero = () => {
             <div className="space-y-6">
               <div>
                 <h3 className="text-2xl font-bold text-white mb-2">
-                  Get Product Consultation
+                  获取产品咨询
                 </h3>
                 <p className="text-gray-300">
-                  Ready to sign up for our healing services?
+                  准备注册我们的治愈服务了吗？
                 </p>
               </div>
 
               <div className="space-y-4">
                 <Input
-                  placeholder="Your Name"
+                  placeholder="您的姓名"
                   className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
                 />
                 <Input
                   type="email"
-                  placeholder="Email Address"
+                  placeholder="邮箱地址"
                   className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
                 />
                 <Input
-                  placeholder="Phone Number"
+                  placeholder="电话号码"
                   className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
                 />
 
                 <div className="flex items-start space-x-2">
                   <input type="checkbox" className="mt-1" />
                   <p className="text-sm text-gray-400">
-                    I have read and agree to the
+                    我已阅读并同意
                     <span className="text-purple-400 underline cursor-pointer">
-                      Terms of Service
+                      服务条款
                     </span>
                   </p>
                 </div>
@@ -157,7 +155,7 @@ const Hero = () => {
                   className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white"
                   size="lg"
                 >
-                  Get Started
+                  立即开始
                 </Button>
               </div>
             </div>

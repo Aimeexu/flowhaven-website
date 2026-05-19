@@ -27,7 +27,7 @@ const Header = () => {
               <span className="text-white font-bold text-sm">FH</span>
             </div>
             <span className="text-white font-semibold text-lg">
-              FlowHaven Tech
+              四川小宇灵境科技
             </span>
           </div>
 
@@ -37,31 +37,31 @@ const Header = () => {
               onClick={() => scrollToSection("home")}
               className="text-gray-300 hover:text-white transition-colors"
             >
-              Home
+              首页
             </button>
             <button
               onClick={() => scrollToSection("features")}
               className="text-gray-300 hover:text-white transition-colors"
             >
-              Features
+              产品功能
             </button>
             <button
               onClick={() => scrollToSection("about")}
               className="text-gray-300 hover:text-white transition-colors"
             >
-              About Us
+              关于我们
             </button>
             <button
               onClick={() => scrollToSection("download")}
               className="text-gray-300 hover:text-white transition-colors"
             >
-              Download
+              下载
             </button>
             <button
               onClick={() => scrollToSection("support")}
               className="text-gray-300 hover:text-white transition-colors"
             >
-              Support
+              支持
             </button>
           </nav>
 
@@ -71,7 +71,7 @@ const Header = () => {
               onClick={() => scrollToSection("download")}
               className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white"
             >
-              Get Started
+              立即开始
             </Button>
           </div>
 
@@ -89,37 +89,37 @@ const Header = () => {
                 onClick={() => scrollToSection("home")}
                 className="text-gray-300 hover:text-white transition-colors text-left"
               >
-                Home
+                首页
               </button>
               <button
                 onClick={() => scrollToSection("features")}
                 className="text-gray-300 hover:text-white transition-colors text-left"
               >
-                Features
+                产品功能
               </button>
               <button
                 onClick={() => scrollToSection("about")}
                 className="text-gray-300 hover:text-white transition-colors text-left"
               >
-                About Us
+                关于我们
               </button>
               <button
                 onClick={() => scrollToSection("download")}
                 className="text-gray-300 hover:text-white transition-colors text-left"
               >
-                Download
+                下载
               </button>
               <button
                 onClick={() => scrollToSection("support")}
                 className="text-gray-300 hover:text-white transition-colors text-left"
               >
-                Support
+                支持
               </button>
               <Button
                 onClick={() => scrollToSection("download")}
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white w-full"
               >
-                Get Started
+                立即开始
               </Button>
             </div>
           </nav>

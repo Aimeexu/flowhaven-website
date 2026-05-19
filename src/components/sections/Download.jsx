@@ -15,40 +15,40 @@ const Download = () => {
   const userGroups = [
     {
       icon: GraduationCap,
-      title: "Students",
-      description: "Improve learning focus, reduce academic stress",
+      title: "学生群体",
+      description: "提升学习专注，减轻学业压力",
     },
     {
       icon: Briefcase,
-      title: "Professionals",
-      description: "Efficient time management, work-life balance",
+      title: "职场人士",
+      description: "高效时间管理，工作生活平衡",
     },
     {
       icon: Users,
-      title: "Freelancers",
-      description: "Build self-discipline habits, boost work efficiency",
+      title: "自由职业者",
+      description: "培养自律习惯，提升工作效率",
     },
     {
       icon: Target,
-      title: "Growth Seekers",
-      description: "Warm companionship, joyful focus",
+      title: "成长追求者",
+      description: "温暖陪伴，快乐专注",
     },
   ];
 
   const reviews = [
     {
-      text: "Finally found an app that makes focusing fun!",
-      author: "User A",
+      text: "终于找到一款让专注变得有趣的应用！",
+      author: "用户A",
       rating: 5,
     },
     {
-      text: "The little animals are so cute, I look forward to focus time every day.",
-      author: "User B",
+      text: "小动物们太可爱了，每天都期待专注时光。",
+      author: "用户B",
       rating: 5,
     },
     {
-      text: "This app really helped me develop the habit of focusing.",
-      author: "User C",
+      text: "这款应用真的帮我养成了专注的习惯。",
+      author: "用户C",
       rating: 5,
     },
   ];
@@ -62,10 +62,10 @@ const Download = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Experience TomatoTime Now
+            立即体验萌友专注
           </h2>
           <p className="text-xl text-slate-600 mb-2">
-            Begin your healing focus journey
+            开启您的治愈专注之旅
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto"></div>
         </div>
@@ -77,42 +77,39 @@ const Download = () => {
             {/* Product Introduction */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-100">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">
-                Product Introduction
+                产品介绍
               </h3>
               <p className="text-slate-600 leading-relaxed mb-6">
-                TomatoTime is an innovative productivity app that combines the
-                Pomodoro Technique with animal companion mechanics. Through cute
-                animal companions, every focus session becomes fun and
-                fulfilling.
+                萌游专注是一款创新的生产力应用，将番茄工作法与动物陪伴机制相结合。通过可爱的动物伙伴，让每一次专注都充满乐趣与成就感。
               </p>
 
               {/* Download Info */}
               <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl p-6 border border-purple-100">
                 <h4 className="text-lg font-bold text-slate-900 mb-4">
-                  Download Information
+                  下载信息
                 </h4>
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div>
                     <span className="font-semibold text-slate-700">
-                      Platform Support:
+                      平台支持：
                     </span>
-                    <p className="text-slate-600">iOS (US App Store)</p>
+                    <p className="text-slate-600">iOS（美国App Store）</p>
                   </div>
                   <div>
                     <span className="font-semibold text-slate-700">
-                      Version:
+                      版本：
                     </span>
-                    <p className="text-slate-600">Latest Version</p>
+                    <p className="text-slate-600">最新版本</p>
                   </div>
                   <div>
-                    <span className="font-semibold text-slate-700">Size:</span>
-                    <p className="text-slate-600">Approximately 50MB</p>
+                    <span className="font-semibold text-slate-700">大小：</span>
+                    <p className="text-slate-600">约50MB</p>
                   </div>
                   <div>
                     <span className="font-semibold text-slate-700">
-                      System Requirements:
+                      系统要求：
                     </span>
-                    <p className="text-slate-600">iOS 14.0 or later</p>
+                    <p className="text-slate-600">iOS 14.0或更高版本</p>
                   </div>
                 </div>
               </div>
@@ -121,7 +118,7 @@ const Download = () => {
             {/* User Groups */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-100">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">
-                Target Users
+                目标用户
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 {userGroups.map((group, index) => (
@@ -153,7 +150,7 @@ const Download = () => {
               <div className="text-center mb-6">
                 <img
                   src={image3}
-                  alt="TomatoTime app preview"
+                  alt="萌友专注应用预览"
                   className="rounded-xl shadow-2xl w-full max-w-sm mx-auto"
                 />
               </div>
@@ -165,7 +162,7 @@ const Download = () => {
                   size="lg"
                 >
                   <Apple className="mr-2" size={20} />
-                  Coming Soon
+                  即将上线
                 </Button>
                 <Button
                   variant="outline"
@@ -173,7 +170,7 @@ const Download = () => {
                   size="lg"
                 >
                   <DownloadIcon className="mr-2" size={20} />
-                  Product Demo Video
+                  产品演示视频
                 </Button>
               </div>
             </div>
@@ -181,7 +178,7 @@ const Download = () => {
             {/* User Reviews */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-100">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">
-                User Reviews
+                用户评价
               </h3>
               <div className="space-y-4">
                 {reviews.map((review, index) => (
@@ -209,10 +206,10 @@ const Download = () => {
         {/* Bottom CTA */}
         <div className="text-center bg-gradient-to-r from-purple-600 to-blue-600 rounded-3xl p-12 text-white">
           <h3 className="text-3xl font-bold mb-4">
-            Ready to start your focus journey?
+            准备开始您的专注之旅了吗？
           </h3>
           <p className="text-xl text-purple-100 mb-8">
-            Join millions of users and experience warm focus time
+            加入百万用户，体验温暖专注时光
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -220,14 +217,14 @@ const Download = () => {
               className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-3"
             >
               <Apple className="mr-2" size={20} />
-              Coming Soon
+              即将上线
             </Button>
             <Button
               variant="outline"
               size="lg"
               className="border-white/30 text-white hover:bg-white/10 px-8 py-3"
             >
-              Learn More Features
+              了解更多功能
             </Button>
           </div>
         </div>
